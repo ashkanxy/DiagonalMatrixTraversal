@@ -1,0 +1,7 @@
+[1msrc/lib/createVector.cc:42:1: [0m[0;1;35mwarning: [0m[1mtreating Unicode character as whitespace [-Wunicode-whitespace][0m
+ }
+[0;1;32m^
+[0m[1msrc/lib/createVector.cc:42:3: [0m[0;1;35mwarning: [0m[1mcontrol may reach end of non-void function [-Wreturn-type][0m
+ }
+[0;1;32m ^
+[0m2 warnings generated.
