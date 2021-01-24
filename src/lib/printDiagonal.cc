@@ -19,3 +19,19 @@ void printDiagonal (vector<vector<int>> m) {
            cout<<endl;
        } 
 }
+
+
+void printAntiDiagonal (vector<vector<int>> m) {
+     int row = m.size();
+     int col = m[0].size();
+     for(int i=0; i<row;++i) {
+         for (int c= col-1; c>=(col-1)-i && c>=0;--c)
+           cout<<m[i-(col-1-c)][c]<<" ";
+         cout<<endl;
+     }
+     for (int c= col-1 -1;  c>=0 ;--c) {
+        for(int i=row-1; c -(row-1 -i) >=0 && i>=0;--i)                    
+           cout<<m[i][c -(row-1 -i)]<<" ";
+         cout<<endl;
+     }
+}
